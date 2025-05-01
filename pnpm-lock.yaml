@@ -35,10 +35,10 @@ importers:
     dependencies:
       '@analogjs/content':
         specifier: ^1.10.3
-        version: 1.10.3(qqxbhk6plwrj4pyprpjr7cbgte)
+        version: 1.10.3(ujkhysyoqfuwwzuuz6x6njjr3a)
       '@analogjs/router':
         specifier: ^1.10.3
-        version: 1.10.3(@analogjs/content@1.10.3(qqxbhk6plwrj4pyprpjr7cbgte))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/router@19.0.5(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.0.5(@angular/animations@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1))
+        version: 1.10.3(@analogjs/content@1.10.3(ujkhysyoqfuwwzuuz6x6njjr3a))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/router@19.0.5(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.0.5(@angular/animations@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1))
       '@analogjs/trpc':
         specifier: ~0.2.47
         version: 0.2.47(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(isomorphic-fetch@3.0.0(encoding@0.1.13))(superjson@2.2.2)
@@ -124,8 +124,8 @@ importers:
         specifier: ^0.4.1
         version: 0.4.1(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@formkit/auto-animate@0.8.2)
       prismjs:
-        specifier: ^1.29.0
-        version: 1.29.0
+        specifier: ^1.30.0
+        version: 1.30.0
       rxjs:
         specifier: ^7.8.1
         version: 7.8.1
@@ -144,7 +144,7 @@ importers:
     devDependencies:
       '@analogjs/platform':
         specifier: ^1.10.3
-        version: 1.10.3(yybjtb7ef6uqrrdcosruz4pi7e)
+        version: 1.10.3(zggc2wzy5lsm6axtn6rg2a5sfy)
       '@analogjs/vite-plugin-angular':
         specifier: ^1.10.3
         version: 1.10.3(@angular-devkit/build-angular@19.0.6(w6mejsgdxpsx5xwqmxcxxpuuou))(@angular/build@19.0.6(k6q27j4tyeccmonc4vxi6ub5hu))
@@ -6968,6 +6968,7 @@ packages:
 
   lodash.template@4.5.0:
     resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
 
   lodash.templatesettings@4.2.0:
     resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
@@ -8073,8 +8074,8 @@ packages:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  prismjs@1.29.0:
-    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+  prismjs@1.30.0:
+    resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
     engines: {node: '>=6'}
 
   proc-log@3.0.0:
@@ -9855,7 +9856,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@analogjs/content@1.10.3(qqxbhk6plwrj4pyprpjr7cbgte)':
+  '@analogjs/content@1.10.3(ujkhysyoqfuwwzuuz6x6njjr3a)':
     dependencies:
       '@angular/common': 19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1)
       '@angular/core': 19.0.5(rxjs@7.8.1)(zone.js@0.15.0)
@@ -9867,11 +9868,11 @@ snapshots:
       marked-gfm-heading-id: 4.1.1(marked@15.0.4)
       marked-highlight: 2.2.1(marked@15.0.4)
       marked-mangle: 1.1.10(marked@15.0.4)
-      prismjs: 1.29.0
+      prismjs: 1.30.0
       rxjs: 7.8.1
       tslib: 2.8.1
 
-  '@analogjs/platform@1.10.3(yybjtb7ef6uqrrdcosruz4pi7e)':
+  '@analogjs/platform@1.10.3(zggc2wzy5lsm6axtn6rg2a5sfy)':
     dependencies:
       '@analogjs/vite-plugin-angular': 1.10.3(@angular-devkit/build-angular@19.0.6(w6mejsgdxpsx5xwqmxcxxpuuou))(@angular/build@19.0.6(k6q27j4tyeccmonc4vxi6ub5hu))
       '@analogjs/vite-plugin-nitro': 1.10.3(encoding@0.1.13)(typescript@5.6.3)
@@ -9885,7 +9886,7 @@ snapshots:
       vitefu: 0.2.5(vite@6.0.5(@types/node@22.10.2)(jiti@2.4.2)(less@4.2.1)(sass@1.83.0)(stylus@0.64.0)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))
     optionalDependencies:
       marked-highlight: 2.2.1(marked@15.0.4)
-      prismjs: 1.29.0
+      prismjs: 1.30.0
     transitivePeerDependencies:
       - '@angular-devkit/build-angular'
       - '@angular/build'
@@ -9916,9 +9917,9 @@ snapshots:
       - vite
       - xml2js
 
-  '@analogjs/router@1.10.3(@analogjs/content@1.10.3(qqxbhk6plwrj4pyprpjr7cbgte))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/router@19.0.5(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.0.5(@angular/animations@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1))':
+  '@analogjs/router@1.10.3(@analogjs/content@1.10.3(ujkhysyoqfuwwzuuz6x6njjr3a))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/router@19.0.5(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.0.5(@angular/animations@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1))':
     dependencies:
-      '@analogjs/content': 1.10.3(qqxbhk6plwrj4pyprpjr7cbgte)
+      '@analogjs/content': 1.10.3(ujkhysyoqfuwwzuuz6x6njjr3a)
       '@angular/core': 19.0.5(rxjs@7.8.1)(zone.js@0.15.0)
       '@angular/router': 19.0.5(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.0.5(@angular/animations@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.0.5(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.0.5(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1)
       tslib: 2.8.1
@@ -18962,7 +18963,7 @@ snapshots:
       ansi-styles: 5.2.0
       react-is: 18.3.1
 
-  prismjs@1.29.0: {}
+  prismjs@1.30.0: {}
 
   proc-log@3.0.0: {}
 
